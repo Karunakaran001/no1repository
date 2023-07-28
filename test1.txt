@@ -1,0 +1,15 @@
+import java.io.*;
+class Java
+{
+public static void main(String args[])throws IOException
+{
+BufferedReader obj=new BufferedReader(new InputStreamReader(System.in));
+int a,b,c;
+System.out.println("Enter The First Nomber");
+a=Integer.parseInt(obj.readLine());
+System.out.println("Enter The Second Number");
+b=Integer.parseInt(obj.readLine());
+c=a+b;
+System.out.print("The Total Value Is :"+c);
+}
+}
